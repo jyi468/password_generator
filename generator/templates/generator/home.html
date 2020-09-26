@@ -1,6 +1,10 @@
 <h1>Password Generator</h1>
 
+<a href="{% url 'about' %}">About</a>
+
+
 <form action="{% url 'password' %}">  <!--Means we want to go to the 'password' view-->
+    <br>
     <select name="length">
         <option value="6">6</option>
         <option value="7">7</option>
