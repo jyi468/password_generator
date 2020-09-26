@@ -1,0 +1,9 @@
+<h1>Password Generator</h1>
+
+<form action="{% url 'password' %}">  <!--Means we want to go to the 'password' view-->
+    <select name="length">
+        <option value="6">label</option>
+        <option value="1">label23</option>
+    </select>
+    <input type="submit" value="Generator Password">
+</form>
