@@ -19,7 +19,7 @@ from generator import views
 
 urlpatterns = [
     # path('admin/', admin.site.urls),  # interacting with DB, admin stuff
-    path('', views.home),
+    path('', views.home, name='home'),
     # path('eggs', views.eggs)  # prepends the '/' character
     path('password/', views.password, name='password'),
 ]
